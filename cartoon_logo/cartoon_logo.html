@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cartoon Network</title>
+        <style>
+            @font-face {
+                font-family: "Cartoon_Slam";
+                src: url("Cartoon_Slam.ttf")}
+
+            body {
+                background-color: lightgray;
+            }
+            
+            .container {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+            }
+
+            .grid-container {
+                display: inline-grid;
+                grid-template-columns: auto auto auto auto auto auto auto;
+            }
+            .grid-item {
+                line-height: 90%;
+                font-weight: bold;
+                font-size: 100px; 
+                width: 100px;
+                height: 83px;
+                text-align: center;
+                border-collapse: collapse;
+                border-right: 0;
+                font-family: "Cartoon_Slam";
+            }
+
+            .grid-item:nth-child(odd) {
+                background-color: black;
+                color: white;
+            }
+            .grid-item:nth-child(even) {
+                background-color: white;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">C</div>
+                <div class="grid-item">A</div>
+                <div class="grid-item">R</div>
+                <div class="grid-item">T</div>
+                <div class="grid-item">O</div>
+                <div class="grid-item">O</div>
+                <div class="grid-item">N</div>
+
+                <div class="grid-item">N</div>
+                <div class="grid-item">E</div>
+                <div class="grid-item">T</div>
+                <div class="grid-item">W</div>
+                <div class="grid-item">O</div>
+                <div class="grid-item">R</div>
+                <div class="grid-item">k</div>
+            </div>
+        </div>
+    </body>
+</html>
